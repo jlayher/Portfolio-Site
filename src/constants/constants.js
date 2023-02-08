@@ -39,7 +39,19 @@ export const projects = [
     visit: 'https://google.com',
     id: 3,
   },
+  // My code starts here
+  {
+    title: 'Full-Stack React & REST API (School Database)',
+    description: "Created a “School Database” full-stack application using a React client, SQLite database, and Express server.  Allows authenticated users to administer a school database’s list of courses and perform basic CRUD operations.",
+    image: 'N/A',
+    tags: ['React', 'React Router', 'Express', 'SQL(SQLite)', 'Node.js'],
+    source: 'N/A',
+    visit: 'https://google.com',
+    id: 3,
+  },
+
 ];
+
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
