@@ -3,8 +3,10 @@ import Link from 'next/link';
 import React from 'react';
 
 //Icons
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillBook } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+// //not working??
+// import { BsFileWord } from "react-icons/bs";
 
 //Styled Components, from HeaderStyles
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -43,11 +45,9 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/john-e-layher/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/* Maybe add a social icon at the top to email me directly */}
-
-      {/* <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons> */}
+      <SocialIcons href="https://www.google.com" alt="Resume Download">
+        <AiFillBook size="3rem" />
+      </SocialIcons>
     </Div3>
   </Container>
 );

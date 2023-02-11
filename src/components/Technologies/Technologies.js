@@ -5,7 +5,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <><Section id="tech">
-    <SectionDivider />
+    <SectionDivider style={{ marginBottom: 25}}/>
     <br />
     <SectionTitle>Technologies</SectionTitle>
     {/* Give your Tech Description here.  A Focus on Front-End Frameworks, Experince going fullstacka nd backend, and basic communication tools */}
@@ -75,7 +75,6 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider />
   </Section>
     </>
 );

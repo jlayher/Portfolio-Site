@@ -47,7 +47,8 @@ const Timeline = () => {
 
   return (
     <Section id="about" >
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider style={{ marginBottom: 10 }} />
+      <SectionTitle style={{ paddingTop: 30}}>About Me</SectionTitle>
       <SectionText>
         I graduated from Elon University in 2019 with a philosophy major and a biology minor, and soon after decided to pursue programming professionally.
       I received a Full-Stack JavaScript Techdegree from Treehouse in 2021, and that same year began work as a Senior Software Engineer at Infosys, 
