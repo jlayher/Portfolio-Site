@@ -49,7 +49,13 @@ const Timeline = () => {
     <Section id="about" >
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm going to fill this section out with something similar to my resume, I think...  I'll come back to this.
+        I graduated from Elon University in 2019 with a philosophy major and a biology minor, and soon after decided to pursue programming professionally.
+      I received a Full-Stack JavaScript Techdegree from Treehouse in 2021, and that same year began work as a Senior Software Engineer at Infosys, 
+      where I performed UI/UX changes for Toyota and Lexus’s websites, developed the functionality of intranet applications, and helped onboard new team members. <br/><br />
+        I am experienced with Full-Stack development, creating REST APIs, as well as many other popular technologies/libraries. I specialize in creating beautiful,
+        dynamic, and responsive websites on the Front-End utilizing React.js and Angular, and have previous experience creating optimized Back-End programs using Express.js
+        and SQL databases.
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -118,7 +124,6 @@ const Timeline = () => {
         </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

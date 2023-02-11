@@ -1,52 +1,83 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiJavascript1, DiScrum } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <><Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
+    {/* Give your Tech Description here.  A Focus on Front-End Frameworks, Experince going fullstacka nd backend, and basic communication tools */}
     <SectionText>
-      Describe my tech-stack here.  I do lot of thing, and it be very great.  Always swell dandy.  Much diggity is afoot!
+      Experienced in developing Full-Stack Web Applications, with a focus on Front-End UI/UX work, utilizing the popular frameworks React.js and Angular.
     </SectionText>
     <List>
+
+      {/* Languages */}
       <ListItem>
-{/* these are custom icons.  visit react icons to find better icons  */}
+        <DiJavascript1 size="3rem" />
+        <ListContainer>
+          <ListTitle>Languages</ListTitle>
+          <ListParagraph>
+            Experience with: <br />
+            -HTML <br />
+            -CSS & SCSS <br />
+            -JavaScript & TypeScript
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      {/* Frameworks */}
+      <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Experience with: <br />
+            -React.js <br />
+            -Angular <br />
+            -Next.js <br />
+            -Bootstrap <br />
+            -Express.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
+      {/* Back-end/Databses */}
       <ListItem>
- {/* these are custom icons.  visit react icons to find better icons  */}
         <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End/Databases</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, Experss.js, SQL Databases
+            Experience with: <br />
+            -Node.js <br />
+            -Experss.js <br />
+            -SQL Databases <br />
+            -Sequelize(ORM)
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        {/* these are custom icons.  visit react icons to find better icons  */}
-        <DiZend size="3rem" />
+
+        {/* Version Control, add github or SCRUM icon */}
+        <DiScrum size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Version Control/Agile</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Figma
+            Experience with: <br />
+            -Figma <br />
+            -Git/Github <br />
+            -Jira <br />
+            -SCRUM <br />
+            -MS Teams
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider />
   </Section>
+    </>
 );
 
 export default Technologies;

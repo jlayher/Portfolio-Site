@@ -33,7 +33,8 @@ const Projects = () => (
             <ExternalLinks href={visit}>Code</ExternalLinks>
 
             {/* Link to live version of website */}
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            {source !== 'N/A' ? <ExternalLinks href={source}>Source</ExternalLinks> : <></>}
+           
           </UtilityList>
         </BlogCard>
       ))}

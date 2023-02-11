@@ -16,7 +16,7 @@ const Hero = () => (
         </SectionTitle>
         <SectionText>  
           {/* What are you offering to employers?  Quick Bio*/}
-          Web-Developer, with expertise in utilizing React.js and Angular to create beautiful, functional, and responsive websites.
+          Web-Developer with expertise in utilizing React.js and Angular to create beautiful, dynamic, and responsive websites.
         </SectionText>
         {/* Point to a specific section of the page, or point it to your email */}
           <Button onClick={() => window.location.href = `mailto:john.e.layher@gmail.com`}>Contact Me</Button>

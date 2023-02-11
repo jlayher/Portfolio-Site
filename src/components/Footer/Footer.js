@@ -25,7 +25,9 @@ const Footer = () => {
         
         <CompanyContainer>
           {/* Change this slogan */}
-          <Slogan>Innovating one project at a time....  Change this</Slogan>
+          <Slogan>Always Learning. <br />
+            Always Innovating.  <br />
+            Always Assisting.</Slogan>
         </CompanyContainer>
 
         <SocialContainer>
