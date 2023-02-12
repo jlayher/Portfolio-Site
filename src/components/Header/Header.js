@@ -5,13 +5,14 @@ import React from 'react';
 //Icons
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillBook } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-// //not working??
-// import { BsFileWord } from "react-icons/bs";
+
+//Import Resume
+// import "../../public/john_layher_resume.pdf"
 
 //Styled Components, from HeaderStyles
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = (props) =>  (
   <Container>
     <Div1>
       <Link legacyBehavior href="/">
@@ -45,7 +46,7 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/john-e-layher/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.google.com" alt="Resume Download">
+      <SocialIcons href="john_layher_resume.pdf" download="john_layher_resume.pdf" alt="Resume Download">
         <AiFillBook size="3rem" />
       </SocialIcons>
     </Div3>

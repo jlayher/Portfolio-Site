@@ -37,7 +37,7 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/john-e-layher/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.google.com" alt="Resume Download">
+          <SocialIcons href="john_layher_resume.pdf" download="john_layher_resume.pdf" alt="Resume Download">
             <AiFillBook size="3rem" />
           </SocialIcons>
         </SocialContainer>
