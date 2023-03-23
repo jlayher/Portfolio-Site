@@ -71,5 +71,5 @@ export const TimeLineData = [
   { year: "May 2021", text: 'Received Full-Stack JavaScript Techdegree from Treehouse'},
   { year: "September 2021", text: "Joined Infosys: Worked on Toyota's Advanced Cloud Engineering project"},
   { year: "March 2022", text: "Performed UI/UX for Toyota's Smartpath and Lexus's Monogram web applications"},
-  { year: "December 2023", text: 'Began Freelancing Web-Design' },
+  { year: "December 2022", text: 'Began Freelancing Web-Design' },
 ];
