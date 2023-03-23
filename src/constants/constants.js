@@ -9,13 +9,22 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'MollyBarnesMusic.com',
+    description: "A freelance website for Dr. Molly Barnes, meant to showcase and promote her work as a professor of Musicology, live performer, and advertise private music lessons through the Skylark Music School.  This application utilizes Next.js, CSS Modules, as well as JavaScript logic for pagination, dropdown menus, and random quote retrieval.",
+    image: '/images/6.png',
+    tags: ['Next.js', 'CSS Modules', 'HTML', 'JavaScript'],
+    source: 'https://www.mollybarnesmusic.com/',
+    visit: 'https://github.com/jlayher/molly-barnes-music',
+    id: 1,
+    },
+  {
     title: 'What is GPT-3',
     description: "Created a responsive Front-End UI for a fictional technology company, promoting GPT-3.  This project uses all of the fundamentals of modern React.js sites, including React Hooks, eye-catching CSS styles, as well as an intuitive, and captivating page layout.",
     image: '/images/1.png',
     tags: ['React', 'Figma', 'CSS', 'JSX', 'JavaScript'],
     source: 'https://jlayher.github.io/React-GPT3-FE/',
     visit: 'https://github.com/jlayher/React-GPT3-FE/tree/master',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Employee Directory: AJAX Application',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['JavaScript', 'Fetch API', 'HTML', 'CSS'],
     source: 'https://jlayher.github.io/Employee-Directory-AJAX-App/',
     visit: 'https://github.com/jlayher/Employee-Directory-AJAX-App',
-    id: 2,
+    id: 3,
   },
   {
     title: 'React Image Gallery with Flickr API',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'React Router', 'JavaScript', 'Axios'],
     source: 'N/A',
     visit: 'https://github.com/jlayher/React-Gallery-App',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Library Database CRUD Application',
@@ -42,7 +51,7 @@ export const projects = [
     tags: ['JavaScript', 'Node.js', 'Express', 'SQL', 'Pug'],
     source: 'N/A',
     visit: 'https://github.com/jlayher/Library-DB-Express',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Phrase Hunter: Object Oriented Programming Game',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['JavaScript', 'CSS', 'HTML'],
     source: 'https://jlayher.github.io/Object-Oriented-Programming-Game/',
     visit: 'https://github.com/jlayher/Object-Oriented-Programming-Game',
-    id: 5,
+    id: 6,
   },
 
 ];
