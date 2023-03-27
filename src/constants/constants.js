@@ -9,8 +9,8 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'MollyBarnesMusic.com',
-    description: "A freelance website for Dr. Molly Barnes, meant to showcase and promote her work as a professor of Musicology, live performer, and advertise private music lessons through the Skylark Music School.  This application utilizes Next.js, CSS Modules, as well as JavaScript logic for pagination, dropdown menus, and random quote retrieval.",
+    title: 'Molly Barnes Music',
+    description: "MollyBarnesMusic.com is a portfolio-style website for Dr. Molly Barnes.  This site showcases and promotes her work as a professor of Musicology, live performer, and advertises private music lessons she offers through the Skylark Music School. This application utilizes Next.js, CSS Modules, as well as JavaScript logic for pagination, dropdown menus, and random quote retrieval.",
     image: '/images/6.png',
     tags: ['Next.js', 'CSS Modules', 'HTML', 'JavaScript'],
     source: 'https://www.mollybarnesmusic.com/',
@@ -19,7 +19,7 @@ export const projects = [
     },
   {
     title: 'What is GPT-3',
-    description: "Created a responsive Front-End UI for a fictional technology company, promoting GPT-3.  This project uses all of the fundamentals of modern React.js sites, including React Hooks, eye-catching CSS styles, as well as an intuitive, and captivating page layout.",
+    description: "'What is GPT-3' is a responsive Front-End UI for a fictional technology company, promoting GPT-3.  This project uses all of the fundamentals of modern React.js sites, including React Hooks, eye-catching CSS styles, as well as an intuitive, and captivating page layout.",
     image: '/images/1.png',
     tags: ['React', 'Figma', 'CSS', 'JSX', 'JavaScript'],
     source: 'https://jlayher.github.io/React-GPT3-FE/',
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: 'Library Database CRUD Application',
-    description: "Constructed a SQLite database, utilizing Express, Sequelize, and Pug templating.  Allows users to perform basic CRUD operations using a simple front-end interface.",
+    description: "A fictional library database that utilizes a SQLite database, Express.js back-end, Sequelize (ORM), and Pug templating.  Allows users to perform basic CRUD operations using a simple front-end interface.",
     image: '/images/4.png',
     tags: ['JavaScript', 'Node.js', 'Express', 'SQL', 'Pug'],
     source: 'N/A',
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     title: 'Phrase Hunter: Object Oriented Programming Game',
-    description: "Designed a browser-based, word guessing game using JavaScript and Object-Oriented Programming.  The program selects, and hides a random phrase, which the player must guess using a keyboard, or the onscreen keyboard.",
+    description: "A browser-based, word guessing game using JavaScript and Object-Oriented Programming.  The program selects, and hides a random phrase, which the player must guess using a keyboard, or the onscreen keyboard.",
     image: '/images/5.png',
     tags: ['JavaScript', 'CSS', 'HTML'],
     source: 'https://jlayher.github.io/Object-Oriented-Programming-Game/',

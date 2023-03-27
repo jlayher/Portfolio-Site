@@ -45,6 +45,9 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  @media ${(props) => props.theme.breakpoints.sm} {
+      font-size: 2.5rem
+    }
 `;
 
 export const Hr = styled.hr`
