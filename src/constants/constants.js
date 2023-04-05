@@ -62,6 +62,15 @@ export const projects = [
     visit: 'https://github.com/jlayher/Object-Oriented-Programming-Game',
     id: 6,
   },
+  {
+    title: 'Angular Tic-Tac-Toe',
+    description: "A simple Tic-Tac-Toe application, utilizing Angular, TypeScript, SCSS, HTML, and the Angular UI Library, Nebular.  The application tracks the current user, provides animations and styles on button click, and alerts the user when, and which player has won the game.",
+    image: '/images/5.png',
+    tags: ['Angular', 'TypeScript', 'HTML', 'SCSS', 'Nebular'],
+    source: 'N/A',
+    visit: 'https://github.com/jlayher/angular_tic_tac_toe',
+    id: 7,
+  },
 
 ];
 
