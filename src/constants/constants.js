@@ -21,7 +21,6 @@ export const projects = [
   },
   {
     title: 'Coin Flip Betting Game',
-    //
     description: "This React based application allows users to place monetary bets on the outcome of a coin toss!  Utilizing React Hooks and state management, this application automatically updates and displays current game data, and provides users a complete history of the bets and outcomes throughout their play session.",
     image: '/images/coin_flip_vite_1.png',
     tags: ['React', 'JavaScript', 'CSS', 'HTML'],
@@ -39,18 +38,6 @@ export const projects = [
     id: 3,
   },
   {
-<<<<<<< HEAD
-=======
-    title: 'Molly Barnes Music',
-    description: "MollyBarnesMusic.com is a portfolio-style website for Dr. Molly Barnes.  This site showcases and promotes her work as a professor of Musicology, live performer, and advertises private music lessons she offers through the Skylark Music School. This application utilizes Next.js, CSS Modules, as well as JavaScript logic for pagination, dropdown menus, and random quote retrieval.",
-    image: '/images/6.png',
-    tags: ['Next.js', 'CSS Modules', 'HTML', 'JavaScript'],
-    source: 'https://www.mollybarnesmusic.com/',
-    visit: 'https://github.com/jlayher/molly-barnes-music',
-    id: 1,
-    },
-  {
->>>>>>> ea87be6bb030f8c8019e97107f72a78a75b2267d
     title: 'What is GPT-3',
     description: "'What is GPT-3' is a responsive Front-End UI for a fictional technology company, promoting GPT-3.  This project uses all of the fundamentals of modern React.js sites, including React Hooks, eye-catching CSS styles, as well as an intuitive, and captivating page layout.",
     image: '/images/1.png',
@@ -102,7 +89,7 @@ export const projects = [
     tags: ['Angular', 'TypeScript', 'HTML', 'SCSS', 'Nebular'],
     source: 'N/A',
     visit: 'https://github.com/jlayher/angular_tic_tac_toe',
-    id: 7,
+    id: 9,
   },
 
 ];

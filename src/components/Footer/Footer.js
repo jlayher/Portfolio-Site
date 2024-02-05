@@ -26,8 +26,7 @@ const Footer = () => {
         <CompanyContainer>
           {/* Change this slogan */}
           <Slogan>Create & Communicate<br/>
-            Learn & Innovate<br />
-          ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ</Slogan>
+            Learn & Innovate</Slogan>
         </CompanyContainer>
 
         <SocialContainer>
