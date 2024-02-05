@@ -1,4 +1,34 @@
 export const projects = [
+
+
+  {
+    title: 'MollyBarnesMusic.com',
+    description: "A freelance website for Dr. Molly Barnes, meant to showcase and promote her work as a professor of Musicology, live performer, and advertise private music lessons through the Skylark Music School.  This application utilizes Next.js, CSS Modules, as well as JavaScript logic for pagination, dropdown menus, and random quote retrieval.",
+    image: '/images/molly_laptop_1.png',
+    tags: ['Next.js', 'CSS Modules', 'HTML', 'JavaScript'],
+    source: 'https://www.mollybarnesmusic.com/',
+    visit: 'https://github.com/jlayher/molly-barnes-music',
+    id: 0,
+  },
+  {
+    title: 'SushiMan',
+    description: "SushiMan is a dynamic, animated, and visually stunning webite for a fictional Japanese restaurant.  AOS (Animate on Scroll), and various CSS styling tricks, make an otherwise simple website feel engaging and lively as users scroll through, and interact with the web page.",
+    image: '/images/SushiMan1.png',
+    tags: ['HTML', 'CSS', 'AOS', 'Node.js'],
+    source: 'https://sushiman-orpin.vercel.app/',
+    visit: 'https://github.com/jlayher/Sushi',
+    id: 1,
+  },
+  {
+    title: 'Coin Flip Betting Game',
+    //
+    description: "This React based application allows users to place monetary bets on the outcome of a coin toss!  Utilizing React Hooks and state management, this application automatically updates and displays current game data, and provides users a complete history of the bets and outcomes throughout their play session.",
+    image: '/images/coin_flip_vite_1.png',
+    tags: ['React', 'JavaScript', 'CSS', 'HTML'],
+    source: 'https://coin-flip-vite.vercel.app/',
+    visit: 'https://github.com/jlayher/Coin_Flip_Vite/tree/master',
+    id: 2,
+  },
   {
     title: 'School Database: Full-Stack React & REST API',
     description: "This is a Full-Stack web application modeling a school’s database.  The application allows for users to Sign-In and Sign-Up.  Authenticated users are able to perform a number of basic CRUD operations, allowing them to Get, Create, Update, and Delete certain “Courses” from the database that they are authorized for.",
@@ -6,17 +36,8 @@ export const projects = [
     tags: ['React', 'Express', 'SQL(SQLite)', 'Node.js'],
     source: 'N/A',
     visit: 'https://github.com/jlayher/FS-React-REST-API',
-    id: 0,
+    id: 3,
   },
-  {
-    title: 'MollyBarnesMusic.com',
-    description: "A freelance website for Dr. Molly Barnes, meant to showcase and promote her work as a professor of Musicology, live performer, and advertise private music lessons through the Skylark Music School.  This application utilizes Next.js, CSS Modules, as well as JavaScript logic for pagination, dropdown menus, and random quote retrieval.",
-    image: '/images/6.png',
-    tags: ['Next.js', 'CSS Modules', 'HTML', 'JavaScript'],
-    source: 'https://www.mollybarnesmusic.com/',
-    visit: 'https://github.com/jlayher/molly-barnes-music',
-    id: 1,
-    },
   {
     title: 'What is GPT-3',
     description: "Created a responsive Front-End UI for a fictional technology company, promoting GPT-3.  This project uses all of the fundamentals of modern React.js sites, including React Hooks, eye-catching CSS styles, as well as an intuitive, and captivating page layout.",
@@ -24,7 +45,7 @@ export const projects = [
     tags: ['React', 'Figma', 'CSS', 'JSX', 'JavaScript'],
     source: 'https://jlayher.github.io/React-GPT3-FE/',
     visit: 'https://github.com/jlayher/React-GPT3-FE/tree/master',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Employee Directory: AJAX Application',
@@ -33,7 +54,7 @@ export const projects = [
     tags: ['JavaScript', 'Fetch API', 'HTML', 'CSS'],
     source: 'https://jlayher.github.io/Employee-Directory-AJAX-App/',
     visit: 'https://github.com/jlayher/Employee-Directory-AJAX-App',
-    id: 3,
+    id: 5,
   },
   {
     title: 'React Image Gallery with Flickr API',
@@ -42,7 +63,7 @@ export const projects = [
     tags: ['React', 'React Router', 'JavaScript', 'Axios'],
     source: 'N/A',
     visit: 'https://github.com/jlayher/React-Gallery-App',
-    id: 4,
+    id: 6,
   },
   {
     title: 'Library Database CRUD Application',
@@ -51,7 +72,7 @@ export const projects = [
     tags: ['JavaScript', 'Node.js', 'Express', 'SQL', 'Pug'],
     source: 'N/A',
     visit: 'https://github.com/jlayher/Library-DB-Express',
-    id: 5,
+    id: 7,
   },
   {
     title: 'Phrase Hunter: Object Oriented Programming Game',
@@ -60,7 +81,7 @@ export const projects = [
     tags: ['JavaScript', 'CSS', 'HTML'],
     source: 'https://jlayher.github.io/Object-Oriented-Programming-Game/',
     visit: 'https://github.com/jlayher/Object-Oriented-Programming-Game',
-    id: 6,
+    id: 8,
   },
 
 ];
